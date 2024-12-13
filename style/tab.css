@@ -1,0 +1,205 @@
+@media (max-width: 1024px) {
+    /* General Reset */
+    body {
+        overflow: hidden;
+    }
+
+    .nav-bar {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .list-item {
+       display: none;
+    }
+    #menu{
+        display: block;
+    }
+
+    #btn {
+        display: none;
+    }
+
+    #travel {
+        margin-left: 0;
+        font-size: 24px;
+    }
+
+    /* Hero Section */
+    .container {
+        flex-direction: column;
+        align-items: center;
+        margin: 80px auto 0;
+        padding: 20px;
+        gap: 30px;
+    }
+
+    .left-content {
+        margin: 0;
+        text-align: center;
+    }
+
+    #para {
+        font-size: 1.2rem;
+    }
+
+    #big-heading {
+        font-size: 3rem;
+    }
+
+    #paragraph {
+        font-size: 1rem;
+    }
+
+    .right-content {
+        margin: 0 auto;
+    }
+
+    #nature-img {
+       display: none;
+    }
+
+    /* Search Bar */
+    .search-bar {
+        position: relative;
+        top: auto;
+        left: auto;
+        flex-direction: column;
+        padding:10px;
+        gap: 20px;
+    }
+    #see-btn{
+        display: none;
+    }
+
+    .button {
+        padding: 20px;
+        border-radius: 20px;
+    }
+
+    .key-words {
+        gap: 10px;
+    }
+
+    /* Center Bar */
+    .center-bar {
+        gap: 20px;
+        font-size: 20px;
+    }
+
+    #heading-center {
+        font-size: 36px;
+    }
+
+    #big-para, #three-heading {
+        font-size: 18px;
+    }
+
+    /* Content Center */
+    .content-center {
+        gap: 10px;
+    }
+
+    .content-center div img {
+        height: 200px;
+        width: 100%;
+    }
+
+    #tour-boton {
+       display: none;
+    }
+
+    /* Big Content */
+    .big-content div img {
+        height: 350px;
+        width: 100%;
+    }
+
+    #scr1, #scr2, #scr3 {
+        height: 350px;
+        width: 100%;
+    }
+
+    #roll1, #roll2, #roll3 {
+        font-size: 20px;
+        bottom: 40px;
+        left: 20px;
+    }
+
+    /* Lower Bar */
+    .lower-bar {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .first, .second {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    input[type="texter"] {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    /* Header Section */
+    .heder-section {
+        width: 100%;
+        margin-left: 0;
+        padding: 10px;
+        overflow: hidden;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rightbar img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .finaliest {
+        flex-direction: column;
+        overflow: hidden;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .finaliest div img {
+        height: 50px;
+        width: 50px;
+    }
+
+    /* Footer */
+    .footer {
+        width: auto;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        gap: 20px;
+    }
+
+    .copyright {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .blog {
+        flex-direction: column;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+}
+
